@@ -3,4 +3,7 @@
     
     <string name="create_food_giveaway_post">Create Food Giveaway Post</string>
 
+
+    <string name="err_msg_empty">Field is empty</string>
+
 </resources>

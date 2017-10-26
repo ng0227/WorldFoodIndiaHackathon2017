@@ -11,9 +11,11 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.naman.nutritionchoice.R;
+import com.example.naman.nutritionchoice.utils.KeyboardUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class CreateFoodGiveawayPostActivity extends AppCompatActivity {
 
@@ -22,13 +24,13 @@ public class CreateFoodGiveawayPostActivity extends AppCompatActivity {
     @BindView(R.id.bt_post)
     Button btPost;
     @BindView(R.id.et_name_of_place_person)
-    EditText nameOfThePlace;
+    EditText etNameOfThePlace;
     @BindView(R.id.et_address)
-    EditText address;
+    EditText etAddress;
     @BindView(R.id.et_phone_number)
-    EditText phoneNumber;
+    EditText etPhoneNumber;
     @BindView(R.id.et_description)
-    EditText foodDescription;
+    EditText etFoodDescription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,29 @@ public class CreateFoodGiveawayPostActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
         setupToolbar();
+    }
+
+    @OnClick(R.id.bt_post)
+    public void onClickPost() {
+        KeyboardUtils.hideSoftInput(this);
+        if (checkValidation()) {
+            //TODO: do post request
+        }
+    }
+
+    private boolean checkValidation() {
+        return validateName(etNameOfThePlace) &
+                validateName(etPhoneNumber) &
+                validateName(etAddress) &
+                validateName(etFoodDescription);
+    }
+
+    private boolean validateName(EditText et) {
+        if (et.getText().toString().trim().isEmpty()) {
+            et.setError(this.getString(R.string.err_msg_empty));
+            return false;
+        }
+        return true;
     }
 
     private void setupToolbar() {
