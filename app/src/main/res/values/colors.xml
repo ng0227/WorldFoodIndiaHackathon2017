@@ -1,6 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+<!-- material colors -->
+<color name="colorPrimary">#7C4DFF</color>
+<color name="colorPrimaryDark">#6C52EF</color>
+<color name="colorPrimaryLight">#C5CAE9</color>
+<color name="colorAccent">#8BDD88</color>
+<color name="colorPrimaryText">#333333</color>
+<color name="colorSecondaryText">#7f7f7f</color>
+<color name="divider">#BDBDBD</color>
+<color name="primary_gradient_start">#9575CD</color>
+<color name="primary_gradient_end">#7C4DFF</color>
+
+<!--
+    ######################################
+    for any colors refer to
+    http://www.color-hex.com/color-names.html
+    and also name the colors as same on the site for maintaining a standard
+    AND DO NOT ADD SIMILAR SHADES COLORS, RE-USE
+    #######################################
+-->
+
+<color name="black">#000000</color>
+<color name="white">#FFFFFF</color>
+<color name="gray79">#c9c9c9</color>
+<color name="gray19">#303030</color>
+<color name="gray91">#e8e8e8</color>
+<color name="DimGray">#696969</color>
+<color name="WhiteSmoke">#F5F5F5</color>
+<color name="gray89">#e3e3e3</color>
+<color name="red3">#cd0000</color>
+<color name="ForestGreen">#228b22</color>
+<color name="orange1">#ffa500</color>
+<color name="RoyalBlue1">#4876ff</color>
+<color name="bisque1">#ffe4c4</color>
+
 </resources>
