@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.naman.nutritionchoice">
-
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +15,88 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.PunjabListActivity"
+            android:label="@string/title_punjab_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.PunjabDetailActivity"
+            android:label="@string/title_punjab_detail"
+            android:parentActivityName=".activity.PunjabListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.naman.nutritionchoice.activity.PunjabListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.GujaratListActivity"
+            android:label="@string/title_gujarat_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GujaratDetailActivity"
+            android:label="@string/title_gujarat_detail"
+            android:parentActivityName=".activity.GujaratListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.naman.nutritionchoice.activity.GujaratListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.HaryanaListActivity"
+            android:label="@string/title_haryana_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HaryanaDetailActivity"
+            android:label="@string/title_haryana_detail"
+            android:parentActivityName=".activity.HaryanaListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.naman.nutritionchoice.activity.HaryanaListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.RajasthanListActivity"
+            android:label="@string/title_rajasthan_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RajasthanDetailActivity"
+            android:label="@string/title_rajasthan_detail"
+            android:parentActivityName=".activity.RajasthanListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.naman.nutritionchoice.activity.RajasthanListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.TamilNaduListActivity"
+            android:label="@string/title_tamilnadu_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TamilNaduDetailActivity"
+            android:label="@string/title_tamilnadu_detail"
+            android:parentActivityName=".activity.TamilNaduListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.naman.nutritionchoice.activity.TamilNaduListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.MaharashtraListActivity"
+            android:label="@string/title_maharashtra_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.MaharashtraDetailActivity"
+            android:label="@string/title_maharashtra_detail"
+            android:parentActivityName=".activity.MaharashtraListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.naman.nutritionchoice.activity.MaharashtraListActivity" />
         </activity>
     </application>
 
