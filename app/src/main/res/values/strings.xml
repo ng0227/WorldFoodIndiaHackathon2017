@@ -1,6 +1,22 @@
 <resources>
     <string name="app_name">NutritionChoice</string>
 
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_punjab_list">Punjab</string>
+    <string name="title_punjab_detail">Punjab Detail</string>
+    <string name="title_gujarat_list">Gujarat</string>
+    <string name="title_gujarat_detail">Gujarat Detail</string>
+    <string name="title_haryana_list">Haryana</string>
+    <string name="title_haryana_detail">Haryana Detail</string>
+    <string name="title_rajasthan_list">Rajasthan</string>
+    <string name="title_rajasthan_detail">Rajasthan Detail</string>
+    <string name="title_tamilnadu_list">Tamil_Nadu</string>
+    <string name="title_tamilnadu_detail">Tamil_Nadu Detail</string>
+    <string name="title_maharashtra_list">Maharashtra</string>
+    <string name="title_maharashtra_detail">Maharashtra Detail</string>
+    
     <string name="create_food_giveaway_post">Create Food Giveaway Post</string>
 
 
