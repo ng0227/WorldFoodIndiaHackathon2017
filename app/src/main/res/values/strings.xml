@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">NutritionChoice</string>
-    
+
     <string name="create_food_giveaway_post">Create Food Giveaway Post</string>
 
 
     <string name="err_msg_empty">Field is empty</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

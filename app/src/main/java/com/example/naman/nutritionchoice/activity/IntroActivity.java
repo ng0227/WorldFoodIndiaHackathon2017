@@ -10,9 +10,8 @@ public class IntroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.food_giveaway_post_layout);
 
-        // TODO: introduction page max 2 screens
 
     }
 }
