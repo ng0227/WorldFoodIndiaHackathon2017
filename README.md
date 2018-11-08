@@ -29,3 +29,6 @@ Nutrition Choice is an Android application which will provide details of nutriti
 - Recipes of food category wise<br />
 - Nutrition value of each recipe<br />
 - Resources like youtube videos will be shown for recipe of different dishes<br />
+
+##### 4. Reduce food wastage:
+- Shows information of extra food products their expiry dates in godowns and departmental stores & provide the needy BPL families, NGO and for calamity affected areas with these products to prevent food wastage.
