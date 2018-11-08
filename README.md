@@ -15,13 +15,13 @@ Nutrition Choice is an Android application which will provide details of nutriti
 #### Key Features
 
 ##### 1. Nutrition value search:
--search by keywords like food or ingredient name<br />
--search by picture of food
+- search by keywords like food or ingredient name<br />
+- search by picture of food<br />
 
 ##### 2. Plan your nutrition:
--check nutrition requirement as per your age and gender<br />
--prepare your own diet chart for a week or a month as per cost and nutrition value<br />
--tracking calories intake/day or week graphically<br />
+- check nutrition requirement as per your age and gender<br />
+- prepare your own diet chart for a week or a month as per cost and nutrition value<br />
+- tracking calories intake/day or week graphically<br />
 
 
 ##### 3. Regional Culinary Information:
